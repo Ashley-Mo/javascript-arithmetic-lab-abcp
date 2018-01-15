@@ -30,15 +30,13 @@ function dec(a){
 }
 
 function makeInt(n){
-  return n.parseInt();
-  
-  
+  return parseInt(n);
 }
 
 function makeInt(n){
-  return parseInt('2', n);
+  return parseInt(n, 10);
 }
 
 function makeInt(n){
-  return parseInt('nonsense!', n)
+  return parseInt(n, 10);
 }
