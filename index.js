@@ -30,7 +30,7 @@ function dec(a){
 }
 
 function makeInt(n){
-  return n.parseInt;
+  return n.parseInt();
   
   
 }
