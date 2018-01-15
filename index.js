@@ -40,5 +40,5 @@ function makeInt(n){
 }
 
 function makeInt(n){
-  return parseInt('2', n);
+  return parseInt('nonsense!', n)
 }
