@@ -31,4 +31,6 @@ function dec(a){
 
 function makeInt(n){
   return n.parseInt;
+  return parseInt('2', n);
+  
 }
